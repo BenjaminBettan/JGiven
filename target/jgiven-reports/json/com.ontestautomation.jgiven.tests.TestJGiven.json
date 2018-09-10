@@ -1,0 +1,91 @@
+{
+  "className": "com.ontestautomation.jgiven.tests.TestJGiven",
+  "name": "Test J Given",
+  "scenarios": [
+    {
+      "className": "com.ontestautomation.jgiven.tests.TestJGiven",
+      "testMethodName": "firstTest",
+      "description": "First test",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "testing given",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "testing given"
+                },
+                {
+                  "value": "",
+                  "argumentInfo": {
+                    "argumentName": "string",
+                    "formattedValue": ""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 38035271
+            },
+            {
+              "name": "testing when",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "testing when"
+                },
+                {
+                  "value": "",
+                  "argumentInfo": {
+                    "argumentName": "string",
+                    "formattedValue": ""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 9002163
+            },
+            {
+              "name": "testing then",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "testing then"
+                },
+                {
+                  "value": "",
+                  "argumentInfo": {
+                    "argumentName": "string",
+                    "formattedValue": ""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 8442761
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "success": true,
+          "durationInNanos": 82443437
+        }
+      ],
+      "durationInNanos": 82443437
+    }
+  ],
+  "tagMap": {}
+}

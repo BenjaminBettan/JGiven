@@ -1,0 +1,91 @@
+{
+  "className": "com.ontestautomation.jgiven.tests.LoginTest",
+  "name": "Login",
+  "scenarios": [
+    {
+      "className": "com.ontestautomation.jgiven.tests.LoginTest",
+      "testMethodName": "aFirstLoginTest",
+      "description": "A first login test",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "I am at the login page",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I am at the login page"
+                },
+                {
+                  "value": "",
+                  "argumentInfo": {
+                    "argumentName": "string",
+                    "formattedValue": ""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 63826760
+            },
+            {
+              "name": "I login as john with password demo",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I login as john with password demo"
+                },
+                {
+                  "value": "",
+                  "argumentInfo": {
+                    "argumentName": "string",
+                    "formattedValue": ""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 23966562
+            },
+            {
+              "name": "the login action will be successful",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the login action will be successful"
+                },
+                {
+                  "value": "",
+                  "argumentInfo": {
+                    "argumentName": "string",
+                    "formattedValue": ""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 74013205
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "success": true,
+          "durationInNanos": 215832441
+        }
+      ],
+      "durationInNanos": 215832441
+    }
+  ],
+  "tagMap": {}
+}

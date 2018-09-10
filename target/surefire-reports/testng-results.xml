@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="262" started-at="2018-09-10T18:48:06Z" finished-at="2018-09-10T18:48:06Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="262" started-at="2018-09-10T18:48:06Z" finished-at="2018-09-10T18:48:06Z">
+      <class name="com.ontestautomation.jgiven.tests.TestJGiven">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.ontestautomation.jgiven.tests.TestJGiven@42f93a98]" name="init" is-config="true" duration-ms="16" started-at="2018-09-10T20:48:06Z" finished-at="2018-09-10T20:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:com.ontestautomation.jgiven.tests.TestJGiven@42f93a98]" name="firstTest" duration-ms="239" started-at="2018-09-10T20:48:06Z" finished-at="2018-09-10T20:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ontestautomation.jgiven.tests.TestJGiven@42f93a98]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-10T20:48:06Z" finished-at="2018-09-10T20:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ontestautomation.jgiven.tests.TestJGiven -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
